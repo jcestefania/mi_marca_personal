@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Marca Personal</title>
-  </head>
-  <body>
-    <h1>¡Bienvenido a mi página personal!</h1>
-    <p>Esto es una prueba</p>
-  </body>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Marca Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Juan Carlos Estefanía. Soy estudiante de Ingeniería Informática en la etapa final de mi formación, con experiencia en proyectos relacionados con inteligencia artificial, machine learning y redes neuronales, así como en el desarrollo de soluciones tecnológicas innovadoras. Aquí encontrarás información sobre mis proyectos y habilidades.</p>
+            <a href="https://www.linkedin.com/in/juan-carlos-estefan%C3%ADa-ovejero-b4b8862b3/" target="_blank">Visita mi perfil en LinkedIn</a>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Aquí encontrarás algunos de los proyectos en los que he trabajado:</p>
+            <ul>
+                <li>Proyecto 1: <a href="#">Descripción y enlace</a></li>
+                <li>Proyecto 2: <a href="#">Descripción y enlace</a></li>
+                <li>Proyecto 3: <a href="#">Descripción y enlace</a></li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juan Carlos Estefanía Ovejero. Todos los derechos reservados.</p>
+    </footer>
+</body>
 </html>
+
