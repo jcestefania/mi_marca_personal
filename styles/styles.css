@@ -1,6 +1,6 @@
 /* General */
 body {
-    font-family: 'Roboto', sans-serif; /* Aplica Roboto a todo el sitio */
+    font-family: 'Roboto', sans-serif; /* Regular por defecto */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -14,11 +14,12 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif; /* Aplica Roboto específicamente al header */
+    font-weight: 400; /* Regular */
 }
 
 header h1 {
     margin: 0;
+    font-weight: 700; /* Bold */
 }
 
 header nav ul {
@@ -36,7 +37,7 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-weight: 400; /* Regular */
 }
 
 header nav ul li a:hover {
@@ -58,15 +59,15 @@ section h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif; /* Usa Roboto para los títulos */
+    font-weight: 700; /* Bold */
 }
 
 section p, section ul {
     margin: 10px 0;
-    font-family: 'Roboto', sans-serif; /* Usa Roboto para el contenido */
+    font-weight: 400; /* Regular */
 }
 
-/* Form */
+/* Formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -74,7 +75,7 @@ form {
 }
 
 form label {
-    font-weight: bold;
+    font-weight: 700; /* Bold */
 }
 
 form input, form textarea, form button {
@@ -82,7 +83,7 @@ form input, form textarea, form button {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-family: 'Roboto', sans-serif; /* Aplica Roboto también al formulario */
+    font-weight: 400; /* Regular */
 }
 
 form button {
@@ -102,10 +103,7 @@ footer {
     padding: 10px 0;
     background-color: #333;
     color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-family: 'Roboto', sans-serif; /* También para el footer */
+    font-weight: 400; /* Regular */
 }
 
 /* Responsive Design */
