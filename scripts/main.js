@@ -13,7 +13,7 @@ toggleButton.addEventListener('click', () => {
     }
 });
 
-// Llamada AJAX para obtener información del perfil de GitHub
+// Llamada AJAX con jQuery para obtener información del perfil de GitHub
 $(document).ready(function () {
     const username = 'jcestefania'; // Cambia esto por tu nombre de usuario en GitHub
     const url = `https://api.github.com/users/${username}`;
