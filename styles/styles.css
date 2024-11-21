@@ -106,28 +106,68 @@ footer {
     font-weight: 400; /* Regular */
 }
 
-/* Contenedor del botón de LinkedIn */
-.linkedin-container {
-    margin-top: 30px; /* Más espacio encima del botón */
-    text-align: center; /* Centra el botón horizontalmente */
+/* Contenedor principal */
+.sobre-mi-contenedor {
+    max-width: 800px; /* Limita el ancho */
+    margin: 0 auto; /* Centra el contenido */
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro para destacar */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-/* Botón de LinkedIn */
-.btn-linkedin {
-    display: inline-block; /* El botón será como un bloque alineado */
-    background-color: #0077b5; /* Color azul de LinkedIn */
+/* Espaciado entre elementos */
+.sobre-mi-contenedor p {
+    margin-bottom: 15px; /* Espaciado entre párrafos */
+    line-height: 1.6; /* Mejor legibilidad */
+}
+
+/* Botón Mostrar/Ocultar */
+#toggleDescripcion {
+    margin-bottom: 15px; /* Espacio debajo del botón */
+    padding: 10px 15px; /* Ajusta el tamaño del botón */
+    background-color: #444; /* Fondo oscuro */
     color: #fff; /* Texto blanco */
-    text-decoration: none; /* Elimina el subrayado */
-    padding: 12px 20px; /* Espaciado interno más grande */
-    border-radius: 8px; /* Bordes más redondeados */
-    font-weight: 700; /* Texto más grueso */
-    font-size: 16px; /* Tamaño de fuente más grande */
-    transition: background-color 0.3s ease; /* Transición suave */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    font-weight: bold;
 }
 
-/* Efecto hover */
-.btn-linkedin:hover {
-    background-color: #005582; /* Azul más oscuro cuando se pasa el cursor */
+#toggleDescripcion:hover {
+    background-color: #666; /* Cambia el color al pasar el cursor */
+}
+
+/* Botón LinkedIn */
+.btn-linkedin {
+    display: block; /* Asegura que esté en su propia línea */
+    margin: 20px auto; /* Centra el botón */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de texto */
+    font-weight: bold;
+}
+
+/* Información de GitHub */
+.github-info {
+    margin-top: 20px; /* Espacio superior */
+    padding: 15px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+}
+.github-info h3 {
+    margin-bottom: 10px; /* Espaciado debajo del título */
+    font-size: 18px;
+    color: #444;
+}
+.github-info a {
+    color: #0077b5; /* Color de enlaces */
+    text-decoration: none;
+}
+.github-info a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
 }
 
 
