@@ -106,27 +106,29 @@ footer {
     font-weight: 400; /* Regular */
 }
 
-/* Botón de LinkedIn */
-.btn-linkedin {
-    display: inline-block; /* El enlace se comporta como un botón */
-    background-color: #0077b5; /* Color azul de LinkedIn */
-    color: #fff; /* Texto blanco */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    padding: 10px 15px; /* Espaciado interno */
-    border-radius: 5px; /* Bordes redondeados */
-    font-weight: bold; /* Texto en negrita */
-    margin-top: 10px; /* Espacio superior */
-    text-align: center;
+/* Información general de LinkedIn y GitHub */
+.linkedin-info, .github-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.btn-linkedin:hover {
-    background-color: #005582; /* Color más oscuro al pasar el cursor */
+.linkedin-info h3, .github-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
 }
 
-/* Contenedor del botón de LinkedIn */
-.linkedin-container {
-    margin-top: 20px; /* Espacio adicional encima */
-    text-align: center; /* Centra el botón */
+.linkedin-info a, .github-info a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+.linkedin-info a:hover, .github-info a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */

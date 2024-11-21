@@ -22,16 +22,16 @@ $(document).ready(function () {
         url: url,
         method: 'GET',
         success: function (data) {
-            // Añadir información del perfil a la sección "Sobre mí"
-            const githubInfo = `
-                <div id="github-info">
-                    <h3>Perfil de GitHub</h3>
-                    <p>Nombre: ${data.name}</p>
-                    <p>Repositorios públicos: ${data.public_repos}</p>
-                    <p><a href="${data.html_url}" target="_blank">Ver perfil en GitHub</a></p>
-                </div>
-            `;
-            $('#sobre-mi').append(githubInfo);
+            // Seleccionar el contenedor existente de GitHub
+            const githubInfo = $('#sobre-mi .github-info');
+
+            // Actualizar los datos dentro del contenedor existente
+            githubInfo.html(`
+                <h3>Perfil de GitHub</h3>
+                <p>Nombre: ${data.name}</p>
+                <p>Repositorios públicos: ${data.public_repos}</p>
+                <p><a href="${data.html_url}" target="_blank">Ver perfil en GitHub</a></p>
+            `);
         },
         error: function () {
             console.error('No se pudo obtener la información del perfil de GitHub.');
