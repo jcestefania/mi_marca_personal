@@ -106,6 +106,31 @@ footer {
     font-weight: 400; /* Regular */
 }
 
+/* Botón de LinkedIn */
+.btn-linkedin {
+    display: inline-block; /* El enlace se comporta como un botón */
+    background-color: #0077b5; /* Color azul de LinkedIn */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    padding: 10px 15px; /* Espaciado interno (hace el botón más grande) */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Espacio superior entre el botón y otros elementos */
+    text-align: center; /* Centra el texto del botón */
+}
+
+/* Efecto al pasar el cursor por encima */
+.btn-linkedin:hover {
+    background-color: #005582; /* Color más oscuro al pasar el cursor */
+}
+
+/* Contenedor del botón de LinkedIn */
+.linkedin-container {
+    margin-top: 20px; /* Espacio adicional encima del contenedor */
+    text-align: center; /* Centra el botón dentro de su contenedor */
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header nav ul {
