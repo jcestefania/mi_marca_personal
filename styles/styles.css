@@ -106,29 +106,30 @@ footer {
     font-weight: 400; /* Regular */
 }
 
-/* Botón de LinkedIn */
-.btn-linkedin {
-    display: inline-block; /* El enlace se comporta como un botón */
-    background-color: #0077b5; /* Color azul de LinkedIn */
-    color: #fff; /* Texto blanco */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    padding: 10px 15px; /* Espaciado interno (hace el botón más grande) */
-    border-radius: 5px; /* Bordes redondeados */
-    font-weight: bold; /* Texto en negrita */
-    margin-top: 10px; /* Espacio superior entre el botón y otros elementos */
-    text-align: center; /* Centra el texto del botón */
-}
-
-/* Efecto al pasar el cursor por encima */
-.btn-linkedin:hover {
-    background-color: #005582; /* Color más oscuro al pasar el cursor */
-}
-
 /* Contenedor del botón de LinkedIn */
 .linkedin-container {
-    margin-top: 20px; /* Espacio adicional encima del contenedor */
-    text-align: center; /* Centra el botón dentro de su contenedor */
+    margin-top: 30px; /* Más espacio encima del botón */
+    text-align: center; /* Centra el botón horizontalmente */
 }
+
+/* Botón de LinkedIn */
+.btn-linkedin {
+    display: inline-block; /* El botón será como un bloque alineado */
+    background-color: #0077b5; /* Color azul de LinkedIn */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 12px 20px; /* Espaciado interno más grande */
+    border-radius: 8px; /* Bordes más redondeados */
+    font-weight: 700; /* Texto más grueso */
+    font-size: 16px; /* Tamaño de fuente más grande */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover */
+.btn-linkedin:hover {
+    background-color: #005582; /* Azul más oscuro cuando se pasa el cursor */
+}
+
 
 
 /* Responsive Design */
