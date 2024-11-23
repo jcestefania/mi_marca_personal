@@ -1,0 +1,66 @@
+/* General */
+body {
+  font-family: 'Roboto', sans-serif; /* Regular por defecto */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Contenedor de proyectos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo individual del proyecto */
+.project {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos del proyecto */
+.project h3 {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 18px;
+  font-weight: 700; /* Negrita */
+}
+
+/* Descripción del proyecto */
+.project p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Enlaces del proyecto */
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0077b5; /* Azul LinkedIn */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects {
+      padding: 10px;
+  }
+}
