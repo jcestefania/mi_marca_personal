@@ -1,6 +1,6 @@
 /* General */
 body {
-  font-family: 'Roboto', sans-serif; /* Regular por defecto */
+  font-family: "Roboto", sans-serif; /* Regular por defecto */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -61,6 +61,6 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .projects {
-      padding: 10px;
+    padding: 10px;
   }
 }
