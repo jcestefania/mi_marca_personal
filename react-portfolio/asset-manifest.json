@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mi_marca_personal/react-portfolio/static/css/main.b2e8c78c.css",
+    "main.js": "/mi_marca_personal/react-portfolio/static/js/main.a11c544a.js",
+    "index.html": "/mi_marca_personal/react-portfolio/index.html",
+    "main.b2e8c78c.css.map": "/mi_marca_personal/react-portfolio/static/css/main.b2e8c78c.css.map",
+    "main.a11c544a.js.map": "/mi_marca_personal/react-portfolio/static/js/main.a11c544a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2e8c78c.css",
+    "static/js/main.a11c544a.js"
+  ]
+}
