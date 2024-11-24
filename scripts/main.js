@@ -38,3 +38,22 @@ $(document).ready(function () {
         }
     });
 });
+
+// Escucha el evento de envío del formulario
+document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Evitar recargar la página al enviar el formulario
+  
+    const serviceID = 'service_y21rwxb';
+    const templateID = 'template_83xp84e';
+  
+    // Usa emailjs para enviar el formulario
+    emailjs.sendForm(serviceID, templateID, this)
+      .then((response) => {
+        alert('Mensaje enviado correctamente. ¡Gracias por contactarme!');
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((error) => {
+        alert('Error al enviar el mensaje. Intenta nuevamente.');
+        console.error('FAILED...', error);
+      });
+  });
