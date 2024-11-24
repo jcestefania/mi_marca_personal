@@ -1,3 +1,6 @@
+// Inicializar emailjs con mi clave pública
+emailjs.init('UpwKRU1UEsDOdpi2w');
+
 // Selecciona el botón y la descripción
 const toggleButton = document.getElementById('toggleDescripcion');
 const descripcion = document.getElementById('descripcion');
