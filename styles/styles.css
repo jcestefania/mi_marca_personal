@@ -67,45 +67,6 @@ section p, section ul {
     font-weight: 400; /* Regular */
 }
 
-/* Formulario */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-form label {
-    font-weight: 700; /* Bold */
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-weight: 400; /* Regular */
-}
-
-form button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #0077b5;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-    font-weight: 400; /* Regular */
-}
-
 /* Botones de CV */
 .btn-cv {
     display: inline-block;
@@ -147,6 +108,47 @@ footer {
 .linkedin-info a:hover, .github-info a:hover {
     text-decoration: underline;
 }
+
+/* Formulario de Contacto*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: 700; /* Bold */
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: 400; /* Regular */
+}
+
+form button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005582;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    font-weight: 400; /* Regular */
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
