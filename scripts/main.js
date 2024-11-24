@@ -44,7 +44,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     event.preventDefault(); // Evitar recargar la página al enviar el formulario
   
     const serviceID = 'service_y21rwxb';
-    const templateID = 'template_83xp84e';
+    const templateID = 'template_5ftku8q';
   
     // Usa emailjs para enviar el formulario
     emailjs.sendForm(serviceID, templateID, this)
